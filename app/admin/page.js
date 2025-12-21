@@ -1,7 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
-import { players } from '@/data/players';
-import { teams } from '@/data/teams';
+import { players } from '../data/players';
+import { teams } from '../data/teams';
 
 export default function AdminPage() {
   const [channel, setChannel] = useState(null);
